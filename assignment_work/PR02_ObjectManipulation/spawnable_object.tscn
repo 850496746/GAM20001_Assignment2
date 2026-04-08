@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://c8vxvhxk8k8qr"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_1k8xr"]
+radius = 0.5
+height = 1.0
+
+[sub_resource type="StandardMaterial3D" id="BlueMaterial"]
+albedo_color = Color(0, 0, 1, 1)
+
+[node name="SpawnableObject" type="MeshInstance3D"]
+mesh = SubResource("SphereMesh_1k8xr")
+material_override = SubResource("BlueMaterial")
